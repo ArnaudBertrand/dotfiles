@@ -5,8 +5,11 @@ alias gc='git commit -m'
 alias gd='git diff'
 alias go='git checkout'
 alias gf='git fetch'
+alias gfom='git fetch origin master'
 alias gr='git rebase'
+alias grom='git rebase origin/master'
 alias gp='git push'
+alias gpom='git push origin master'
 alias gk='gitk --all&'
 alias gx='gitx --all'
 
@@ -25,4 +28,3 @@ alias nlg='npm list --global --depth=0'
 alias ..='cd ../..';
 alias ...='cd ../../..';
 alias ....='cd ../../../../';
-
